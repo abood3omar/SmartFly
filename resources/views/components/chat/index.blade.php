@@ -343,8 +343,8 @@
                     knowledgeBase = await response.json();
                     console.log('Knowledge base loaded with', Object.keys(knowledgeBase).length, 'entries');
                 } catch (e) {
-                    console.error('Error loading knowledge base:', e);
-                    addMessage('ai', 'Error loading knowledge base.');
+                    // console.error('Error loading knowledge base:', e);
+                    // addMessage('ai', 'Error loading knowledge base.');
                 }
             }
 

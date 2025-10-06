@@ -8,12 +8,12 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 <style>
     .p-3{
-        color: #000000 !important;
+        /* color: #000000 !important; */
     }
     .text-sm {
         font-size: 0.875rem;
         line-height: 1.25rem;
-        color: #000000 !important;
+        /* color: #000000 !important; */
     }
     
     /* Force black color for all text elements */
@@ -21,7 +21,7 @@
     .text-sm span,
     .text-sm div,
     .text-sm p {
-        color: #000000 !important;
+        /* color: #000000 !important; */
     }
     
     /* Override Tailwind classes */
@@ -32,13 +32,11 @@
     }
     
     /* Force black color for all elements */
-    * {
-        color: #000000 !important;
-    }
+   
     
     /* Override specific elements */
     span, div, p, h1, h2, h3, h4, h5, h6 {
-        color: #000000 !important;
+        /* color: #000000 !important; */
     }
 </style>
 <div class="min-h-screen bg-gradient-to-br from-blue-50 to-gray-100">
