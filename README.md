@@ -22,15 +22,15 @@
 
 ## 📖 Overview
 
-**SmartFly** is a comprehensive flight booking and travel assistance platform designed to solve the fragmentation in the Jordanian aviation market. [cite_start]It provides a **unified search engine** for all Jordanian airlines, eliminating the need to compare multiple websites, hidden fees, and confusing pricing structures[cite: 70, 71, 79].
+**SmartFly** is a comprehensive flight booking and travel assistance platform designed to solve the fragmentation in the Jordanian aviation market. It provides a **unified search engine** for all Jordanian airlines, eliminating the need to compare multiple websites, hidden fees, and confusing pricing structures.
 
-[cite_start]The core innovation is the **SmartFly AI Assistant**, which uses a novel **2-layer Hybrid Architecture** to reduce operational support costs by up to **80%** while providing instant, personalized travel guidance[cite: 80, 100].
+The core innovation is the **SmartFly AI Assistant**, which uses a novel **2-layer Hybrid Architecture** to reduce operational support costs by up to **80%** while providing instant, personalized travel guidance.
 
 ---
 
 ## 🤖 The Innovation: Hybrid AI Architecture
 
-[cite_start]Unlike standard chatbots, SmartFly implements a cost-efficient dual-layer system[cite: 90]:
+Unlike standard chatbots, SmartFly implements a cost-efficient dual-layer system:
 
 1.  **Layer 1: Local Knowledge Base ⚡**
     * Handles common FAQs and static data locally.
@@ -39,17 +39,17 @@
     * Activates only for complex or unexpected user queries.
     * **Result:** High-quality handling of edge cases.
 
-> [cite_start]**Impact:** This architecture is estimated to save ~$37.8K/year for every 500k users compared to direct API calls[cite: 84, 117].
+> **Impact:** This architecture is estimated to save ~$37.8K/year for every 500k users compared to direct API calls.
 
 ---
 
 ## 🚀 Key Features
 
-* [cite_start]**Unified Flight Search:** Aggregates real-time deals from all Jordanian airlines in one dashboard[cite: 87].
-* [cite_start]**AI Travel Assistant:** Offers personalized suggestions for baggage, check-in, and meals[cite: 89].
+* **Unified Flight Search:** Aggregates real-time deals from all Jordanian airlines in one dashboard.
+* **AI Travel Assistant:** Offers personalized suggestions for baggage, check-in, and meals.
 * **Role-Based Access Control (RBAC):** comprehensive admin tools for managing users and permissions.
 * **Trip Management:** Seamless reservation management and itinerary planning.
-* [cite_start]**Real-time Support:** 24/7 assistance reducing the latency of traditional support channels[cite: 80].
+* **Real-time Support:** 24/7 assistance reducing the latency of traditional support channels.
 
 ---
 
@@ -57,21 +57,59 @@
 
 | Component | Technology | Description |
 | :--- | :--- | :--- |
-| **Backend** | **PHP Laravel** | [cite_start]Eloquent ORM, Middleware, and API integration[cite: 96]. |
+| **Backend** | **PHP Laravel** | Eloquent ORM, Middleware, and API integration. |
 | **Frontend** | **Tailwind CSS** | Responsive UI, particle animations, and mobile-friendly menus. |
 | **Database** | **MySQL** | Relational database for flight and user data management. |
-| **AI Engine** | **Hybrid (Local + API)** | [cite_start]Integration with Large Language Models (LLMs)[cite: 97]. |
+| **AI Engine** | **Hybrid (Local + API)** | Integration with Large Language Models (LLMs). |
 | **Interactivity** | **AJAX / JS** | Seamless asynchronous data loading without page refreshes. |
 
 ---
 
-## 📸 Screenshots
+## 📸 Project Gallery
 
-<div align="center">
-  <img src="screenshots/dashboard.png" alt="Flight Search Dashboard" width="800"/>
+### 🏠 Welcome & Onboarding
+<p align="center">
+  <img src="public/images/website/welcome1.png" alt="Welcome Screen 1" width="100%">
   <br/><br/>
-  <img src="screenshots/chatbot.png" alt="AI Chatbot Interface" width="800"/>
-</div>
+  <img src="public/images/website/welcome2.png" alt="Welcome Screen 2" width="100%">
+  <br/><br/>
+  <img src="public/images/website/welcome3.png" alt="Welcome Screen 3" width="100%">
+</p>
+
+### 🔐 Authentication (Login & Register)
+<p align="center">
+  <img src="public/images/website/login.png" alt="Login Page" width="100%">
+  <br/><br/>
+  <img src="public/images/website/register.png" alt="Registration Page" width="100%">
+</p>
+
+### ✈️ Flights & Airlines Dashboard
+<p align="center">
+  <img src="public/images/website/airlines1.png" alt="Airlines List" width="100%">
+  <br/><br/>
+  <img src="public/images/website/trips1.png" alt="Trips Overview" width="100%">
+  <br/><br/>
+  <img src="public/images/website/add trip1.png" alt="Add New Trip Admin" width="100%">
+</p>
+
+### 📅 Booking Process
+<p align="center">
+  <img src="public/images/website/booking trip1.png" alt="Booking Step 1" width="100%">
+  <br/><br/>
+  <img src="public/images/website/booking rtip2.png" alt="Booking Step 2" width="100%">
+</p>
+
+### 🤖 Smart AI Assistant
+<p align="center">
+  <img src="public/images/website/Smart Chat1.png" alt="AI Chat Interface 1" width="100%">
+  <br/><br/>
+  <img src="public/images/website/Smart Chat2.png" alt="AI Chat Interface 2" width="100%">
+</p>
+
+### 🛡️ Admin & Security Controls
+<p align="center">
+  <img src="public/images/website/Security pages.png" alt="Security Settings" width="100%">
+</p>
 
 ---
 
@@ -89,9 +127,9 @@
 
 ## 🔮 Future Roadmap
 
-* [cite_start]**Regional Expansion:** Covering airlines across the MENA region[cite: 110].
-* [cite_start]**Service Integration:** Adding hotels, car rentals, and visa guidance[cite: 111].
-* [cite_start]**Data Analytics:** Providing airlines with insights to improve pricing and offers[cite: 112].
+* **Regional Expansion:** Covering airlines across the MENA region.
+* **Service Integration:** Adding hotels, car rentals, and visa guidance.
+* **Data Analytics:** Providing airlines with insights to improve pricing and offers.
 
 ---
 
