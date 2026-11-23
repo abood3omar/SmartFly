@@ -11,7 +11,7 @@
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![Gemini](https://img.shields.io/badge/Google_Gemini-AI_Integration-4285F4?style=for-the-badge&logo=google)
 
-**Developed during the Build with AI Hackathon 2025**
+**Developed during the Build with AI Hackathon 2025** 
 
 *A web platform exploring smarter flight booking, travel management, and AI-powered assistance.*
 
