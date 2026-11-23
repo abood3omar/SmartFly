@@ -1,20 +1,19 @@
-<div align="center">
+ <div align="center">
 
 # ✈️ SmartFly
-### Intelligent Aviation & Travel Assistant Platform
+### Intelligent Flight Booking & Travel Assistance Platform
+
+**Laravel · PHP · MySQL · Tailwind CSS · JavaScript · AI Integration**
 
 ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![AI](https://img.shields.io/badge/AI-Hybrid_Chatbot-blue?style=for-the-badge)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Gemini](https://img.shields.io/badge/Google_Gemini-AI_Integration-4285F4?style=for-the-badge&logo=google)
 
-<br />
+**Developed during the Build with AI Hackathon 2025**
 
-<p align="center">
-  <b>🚀 Developed during "Build With AI" Hackathon 2025</b>
-  <br />
-  <i>A unified platform bridging the gap between travelers and Jordanian airlines.</i>
-</p>
+*A web platform exploring smarter flight booking, travel management, and AI-powered assistance.*
 
 </div>
 
@@ -22,120 +21,217 @@
 
 ## 📖 Overview
 
-**SmartFly** is a comprehensive flight booking and travel assistance platform designed to solve the fragmentation in the Jordanian aviation market. It provides a **unified search engine** for all Jordanian airlines, eliminating the need to compare multiple websites, hidden fees, and confusing pricing structures.
+**SmartFly** is a web-based flight booking and travel assistance platform developed during the **Build with AI Hackathon 2025**.
 
-The core innovation is the **SmartFly AI Assistant**, which uses a novel **2-layer Hybrid Architecture** to reduce operational support costs by up to **80%** while providing instant, personalized travel guidance.
+The project explores how flight information, booking management, and AI-powered travel assistance can be brought together in a single application.
 
----
+Built using Laravel, PHP, MySQL, and Tailwind CSS, SmartFly combines traditional web application functionality with an AI assistant designed to help users find relevant travel information.
 
-## 🤖 The Innovation: Hybrid AI Architecture
+The project focuses on three main areas:
 
-Unlike standard chatbots, SmartFly implements a cost-efficient dual-layer system:
-
-1.  **Layer 1: Local Knowledge Base ⚡**
-    * Handles common FAQs and static data locally.
-    * **Result:** Lightning-fast responses & Zero cost per query.
-2.  **Layer 2: AI API Fallback (Gemini/ChatGPT) 🧠**
-    * Activates only for complex or unexpected user queries.
-    * **Result:** High-quality handling of edge cases.
-
-> **Impact:** This architecture is estimated to save ~$37.8K/year for every 500k users compared to direct API calls.
+- **Flight Discovery:** Exploring available flights and airline information through a unified interface.
+- **Booking Management:** Providing workflows for selecting and managing flight reservations.
+- **AI Travel Assistance:** Helping users with travel-related questions through an integrated AI chatbot.
 
 ---
 
 ## 🚀 Key Features
 
-* **Unified Flight Search:** Aggregates real-time deals from all Jordanian airlines in one dashboard.
-* **AI Travel Assistant:** Offers personalized suggestions for baggage, check-in, and meals.
-* **Role-Based Access Control (RBAC):** comprehensive admin tools for managing users and permissions.
-* **Trip Management:** Seamless reservation management and itinerary planning.
-* **Real-time Support:** 24/7 assistance reducing the latency of traditional support channels.
+### ✈️ Flight & Airline Management
+
+- Airline and flight information management.
+- Flight browsing and search interfaces.
+- Administrative functionality for managing flight records.
+- Structured flight and trip information.
+
+### 🎫 Booking System
+
+- Flight selection and reservation workflows.
+- User authentication and account management.
+- Booking-related forms and interfaces.
+- Trip and reservation information management.
+
+### 🤖 AI Travel Assistant
+
+SmartFly includes an AI-powered chatbot integrated with external AI services.
+
+The assistant is designed to help users with common travel-related questions, including:
+
+- Baggage information.
+- Check-in guidance.
+- General travel recommendations.
+- Airline and flight-related questions.
+
+The project explores a hybrid assistance approach, combining predefined information with AI-generated responses for more flexible conversations.
+
+### 🛡️ Authentication & Authorization
+
+The platform includes authentication and role-based access control to distinguish between regular users and administrative functionality.
+
+### 📱 Responsive User Interface
+
+The application uses Tailwind CSS and JavaScript to provide responsive layouts, interactive components, and asynchronous user interactions.
 
 ---
 
-## 🛠️ Tech Stack
+## ⚙️ Technical Overview
 
-| Component | Technology | Description |
-| :--- | :--- | :--- |
-| **Backend** | **PHP Laravel** | Eloquent ORM, Middleware, and API integration. |
-| **Frontend** | **Tailwind CSS** | Responsive UI, particle animations, and mobile-friendly menus. |
-| **Database** | **MySQL** | Relational database for flight and user data management. |
-| **AI Engine** | **Hybrid (Local + API)** | Integration with Large Language Models (LLMs). |
-| **Interactivity** | **AJAX / JS** | Seamless asynchronous data loading without page refreshes. |
+SmartFly is developed as a Laravel web application with a MySQL relational database.
+
+Laravel handles the application's backend responsibilities, including business logic, database interactions, authentication, authorization, and integration with external services.
+
+### Backend Development
+
+Key backend technologies and concepts include:
+
+- PHP and Laravel.
+- MVC Architecture.
+- Eloquent ORM.
+- Database Migrations.
+- Authentication and Middleware.
+- Role-Based Access Control.
+- Form Validation.
+- External API Integration.
+
+### AI Integration
+
+The application integrates an AI assistant using Google's Gemini API.
+
+The Laravel backend acts as the integration layer between the application's interface and the external AI service.
+
+This allows AI functionality to be incorporated into the existing application without requiring a separate machine learning model to be developed or trained.
+
+### Frontend Development
+
+The frontend uses:
+
+- Blade Templates.
+- HTML and CSS.
+- Tailwind CSS.
+- JavaScript.
+- AJAX.
+
+These technologies support responsive pages, interactive forms, and dynamic application features.
+
+---
+
+## 🛠️ Technology Stack
+
+| Category | Technologies |
+|---|---|
+| Backend | PHP, Laravel |
+| Database | MySQL |
+| ORM | Eloquent |
+| Frontend | Blade, HTML, CSS, Tailwind CSS |
+| Interactivity | JavaScript, AJAX |
+| AI Integration | Google Gemini API |
+| Authentication | Laravel Authentication, Middleware |
+| Authorization | Role-Based Access Control |
+| Architecture | Laravel MVC |
 
 ---
 
 ## 📸 Project Gallery
 
 ### 🏠 Welcome & Onboarding
+
 <p align="center">
-  <img src="public/images/website/welcome1.png" alt="Welcome Screen 1" width="100%">
-  <br/><br/>
-  <img src="public/images/website/welcome2.png" alt="Welcome Screen 2" width="100%">
-  <br/><br/>
-  <img src="public/images/website/welcome3.png" alt="Welcome Screen 3" width="100%">
+  <img src="public/images/website/welcome1.png" alt="SmartFly Welcome Screen 1" width="85%">
+  <br><br>
+  <img src="public/images/website/welcome2.png" alt="SmartFly Welcome Screen 2" width="85%">
+  <br><br>
+  <img src="public/images/website/welcome3.png" alt="SmartFly Welcome Screen 3" width="85%">
 </p>
 
-### 🔐 Authentication (Login & Register)
+### 🔐 Authentication
+
 <p align="center">
-  <img src="public/images/website/login.png" alt="Login Page" width="100%">
-  <br/><br/>
-  <img src="public/images/website/register.png" alt="Registration Page" width="100%">
+  <img src="public/images/website/login.png" alt="Login Page" width="85%">
+  <br><br>
+  <img src="public/images/website/register.png" alt="Registration Page" width="85%">
 </p>
 
-### ✈️ Flights & Airlines Dashboard
+### ✈️ Flights & Airlines
+
 <p align="center">
-  <img src="public/images/website/airlines1.png" alt="Airlines List" width="100%">
-  <br/><br/>
-  <img src="public/images/website/trips1.png" alt="Trips Overview" width="100%">
-  <br/><br/>
-  <img src="public/images/website/add trip1.png" alt="Add New Trip Admin" width="100%">
+  <img src="public/images/website/airlines1.png" alt="Airlines Management" width="85%">
+  <br><br>
+  <img src="public/images/website/trips1.png" alt="Trips Overview" width="85%">
+  <br><br>
+  <img src="public/images/website/add%20trip1.png" alt="Add New Trip" width="85%">
 </p>
 
-### 📅 Booking Process
+### 🎫 Flight Booking
+
 <p align="center">
-  <img src="public/images/website/booking trip1.png" alt="Booking Step 1" width="100%">
-  <br/><br/>
-  <img src="public/images/website/booking rtip2.png" alt="Booking Step 2" width="100%">
+  <img src="public/images/website/booking%20trip1.png" alt="Flight Booking Step 1" width="85%">
+  <br><br>
+  <img src="public/images/website/booking%20rtip2.png" alt="Flight Booking Step 2" width="85%">
 </p>
 
 ### 🤖 Smart AI Assistant
+
 <p align="center">
-  <img src="public/images/website/Smart Chat1.png" alt="AI Chat Interface 1" width="100%">
-  <br/><br/>
-  <img src="public/images/website/Smart Chat2.png" alt="AI Chat Interface 2" width="100%">
+  <img src="public/images/website/Smart%20Chat1.png" alt="SmartFly AI Assistant" width="85%">
+  <br><br>
+  <img src="public/images/website/Smart%20Chat2.png" alt="AI Chat Interface" width="85%">
 </p>
 
-### 🛡️ Admin & Security Controls
+### 🛡️ Administration & Security
+
 <p align="center">
-  <img src="public/images/website/Security pages.png" alt="Security Settings" width="100%">
+  <img src="public/images/website/Security%20pages.png" alt="Security and Access Control" width="85%">
 </p>
 
 ---
 
-## 👨‍💻 My Contribution
+## 👨‍💻 My Contributions
 
-**Abdalrhman Hamed - Full Stack Developer**
+**Abdalrhman Hamed — Full-Stack Developer**
 
-* **Designed** a modern, responsive UI using **Tailwind CSS**, featuring advanced interactive elements like particle animations and dynamic dropdowns.
-* **Built** a scalable **Laravel** backend structure, utilizing Eloquent ORM for complex database queries and Migrations for schema management.
-* **Implemented** secure **Role-Based Access Control (RBAC)** to manage administrative and user privileges effectively.
-* **Enhanced** User Experience (UX) by implementing **AJAX** for smooth, non-blocking interactions across the platform.
-* **Delivered** clean, modular code under tight hackathon deadlines, focusing on maintainability and scalability.
+I worked on the development of SmartFly's backend, frontend, database functionality, and AI integration.
+
+My contributions included:
+
+- Developed the application backend using Laravel and PHP.
+- Designed and implemented database models, relationships, and migrations using MySQL and Eloquent ORM.
+- Built functionality for flight management, booking workflows, and user accounts.
+- Implemented authentication and role-based access control.
+- Integrated an AI-powered travel assistant using an external AI API.
+- Developed responsive user interfaces using Blade, Tailwind CSS, and JavaScript.
+- Implemented asynchronous interactions using AJAX.
+- Worked on application integration, debugging, and delivering features during the hackathon.
 
 ---
 
-## 🔮 Future Roadmap
+## 🏆 Hackathon
 
-* **Regional Expansion:** Covering airlines across the MENA region.
-* **Service Integration:** Adding hotels, car rentals, and visa guidance.
-* **Data Analytics:** Providing airlines with insights to improve pricing and offers.
+**Event:** Build with AI Hackathon 2025
+
+SmartFly was developed as a hackathon project exploring the practical use of AI within a travel-focused web application.
+
+The project provided an opportunity to combine full-stack development with external AI integration while working under a limited development timeline.
+
+---
+
+## 🔮 Future Improvements
+
+Potential future improvements include:
+
+- Integration with live airline and flight data providers.
+- Expanded travel services such as hotels and car rentals.
+- More advanced personalized travel recommendations.
+- Additional booking and payment integrations.
+- Improved travel analytics and reporting.
 
 ---
 
 ## 📬 Contact
 
-**Abdalrhman Hamed** - Software Engineer
-<br />
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/abdalrhman-hamed-5b929725b/)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=flat&logo=github)](https://github.com/abood3omar)
+**Abdalrhman Hamed — Software Engineer**
+
+[LinkedIn](https://www.linkedin.com/in/abdalrhman-hamed-5b929725b/) · [GitHub](https://github.com/abood3omar)
+
+---
+
+*SmartFly — Exploring smarter travel experiences through full-stack development and AI integration.*
